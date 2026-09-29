@@ -1,0 +1,17 @@
+# Build output
+build/
+*.o
+
+# Save files belong to whoever is playing
+*.sav
+
+# Test ROMs are downloaded by `make test`
+tests/roms/
+
+# Only the bundled, freely licensed game goes into the repository
+roms/*
+!roms/libbet.gb
+!roms/LICENSE-libbet.txt
+!roms/README.md
+
+.DS_Store
